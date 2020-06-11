@@ -13,6 +13,7 @@ class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
+        //HintRequest to be added *don't know it at time of this code
         editTextPhone.addTextChangedListener{
             nextBtn.isEnabled=!(it.isNullOrEmpty() || it.length<10)
         }
