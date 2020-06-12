@@ -40,6 +40,7 @@ class LoginActivity : AppCompatActivity() {
             setCancelable(false)
             create()
             show()
+            create()
 
         }
  }
